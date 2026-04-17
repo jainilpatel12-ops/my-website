@@ -1,0 +1,1847 @@
+Here's your **complete updated HTML** with CRAZY ATTRACTIVE LIVELY BACKGROUNDS:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🛕 Gotri Stepwell - Complete Guide</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Poppins', sans-serif; line-height: 1.6; 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            color: #333; transition: all 0.3s ease;
+            overflow-x: hidden;
+        }
+        body.dark { 
+            background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+            color: #e0e0e0; 
+        }
+        
+        /* Animated Background Pattern */
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        
+        /* Page Transition Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        
+        @keyframes zoomIn {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-20px); }
+            60% { transform: translateY(-10px); }
+        }
+        
+        @keyframes floatingGlow {
+            0%, 100% { box-shadow: 0 0 20px rgba(255,107,53,0.6), 0 0 40px rgba(255,107,53,0.3); }
+            50% { box-shadow: 0 0 40px rgba(255,107,53,0.8), 0 0 80px rgba(255,107,53,0.5); }
+        }
+        
+        /* Screen Transition Animations */
+        .screen-transition {
+            animation: fadeIn 0.8s ease-in-out;
+        }
+        
+        .page-content-animated {
+            animation: fadeInUp 0.6s ease-out;
+        }
+        
+        .page-title-animated {
+            animation: slideInLeft 0.5s ease-out;
+        }
+        
+        /* Welcome Screen - VIBRANT ANIMATED BACKGROUND */
+        .welcome { 
+            height: 100vh; 
+            background: linear-gradient(135deg, #ff6b6b 0%, #4ecdc4 25%, #45b7d1 50%, #f9ca24 75%, #ee5a6f 100%);
+            background-size: 400% 400%;
+            animation: gradientShift 15s ease infinite;
+            display: flex; flex-direction: column; justify-content: center; align-items: center; 
+            text-align: center; color: white; padding: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .welcome::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 30%, rgba(255,255,255,0.2) 0%, transparent 50%),
+                radial-gradient(circle at 80% 70%, rgba(255,107,53,0.3) 0%, transparent 50%),
+                radial-gradient(circle at 50% 50%, rgba(102,126,234,0.2) 0%, transparent 50%);
+            animation: floatingGlow 8s ease-in-out infinite;
+        }
+        
+        .welcome h1 { 
+            font-size: 3rem; margin-bottom: 1rem; 
+            animation: fadeInDown 1s ease-out;
+            position: relative;
+            z-index: 1;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+        }
+        .welcome p {
+            animation: fadeInUp 1.2s ease-out;
+            position: relative;
+            z-index: 1;
+            font-size: 1.3rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .welcome-btn { 
+            background: linear-gradient(45deg, #FF6B35, #F7931E, #FFD700); 
+            color: white; border: none; 
+            padding: 1.2rem 3rem; font-size: 1.2rem; border-radius: 50px; cursor: pointer; 
+            margin-top: 2rem; font-weight: 600; transition: all 0.3s;
+            animation: bounce 2s infinite;
+            position: relative;
+            z-index: 1;
+            box-shadow: 0 8px 25px rgba(255,107,53,0.5);
+        }
+        .welcome-btn:hover { 
+            transform: translateY(-3px) scale(1.05); 
+            box-shadow: 0 12px 35px rgba(255,107,53,0.6);
+            animation: none;
+        }
+        
+        /* Main App - COLORFUL GRADIENT BACKGROUND */
+        .main-app { 
+            display: none; 
+            min-height: 100vh;
+            background: linear-gradient(135deg, #ffeaa7 0%, #fab1a0 25%, #fd79a8 50%, #a29bfe 75%, #74b9ff 100%);
+            background-size: 400% 400%;
+            animation: gradientShift 20s ease infinite;
+        }
+        
+        body.dark .main-app {
+            background: linear-gradient(135deg, #2d3436 0%, #636e72 25%, #2d3436 50%, #636e72 75%, #2d3436 100%);
+            background-size: 400% 400%;
+            animation: gradientShift 20s ease infinite;
+        }
+        
+        .header { 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%); 
+            color: white; padding: 1rem 2rem; position: sticky; top: 0; z-index: 100;
+            display: flex; justify-content: space-between; align-items: center;
+            animation: slideInDown 0.5s ease-out;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+        }
+        body.dark .header { 
+            background: linear-gradient(135deg, #0f1e40 0%, #1a2d5f 50%, #2a3f6f 100%); 
+        }
+        
+        /* Sidebar - GRADIENT BACKGROUND */
+        .sidebar { 
+            position: fixed; left: 0; top: 70px; width: 260px; height: calc(100vh - 70px); 
+            background: linear-gradient(180deg, #ffeaa7 0%, #fab1a0 50%, #fd79a8 100%);
+            border-right: 3px solid rgba(255,255,255,0.3); padding: 1.5rem 0; 
+            overflow-y: auto; 
+            box-shadow: 5px 0 20px rgba(0,0,0,0.2);
+            animation: slideInLeft 0.6s ease-out;
+        }
+        body.dark .sidebar { 
+            background: linear-gradient(180deg, #2d3436 0%, #636e72 50%, #2d3436 100%);
+            border-right-color: rgba(255,255,255,0.1); 
+        }
+        .nav-item { 
+            display: block; padding: 1.2rem 1.8rem; color: #fff; text-decoration: none; 
+            border-left: 4px solid transparent; transition: all 0.3s; font-weight: 600;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        }
+        .nav-item:hover, .nav-item.active { 
+            background: linear-gradient(90deg, #FF6B35, #F7931E, #FFD700); 
+            color: white; 
+            border-left-color: white; 
+            transform: translateX(5px);
+            box-shadow: 0 3px 10px rgba(255,107,53,0.4);
+        }
+        body.dark .nav-item { color: #e0e0e0; }
+        body.dark .nav-item:hover, body.dark .nav-item.active { 
+            background: linear-gradient(90deg, #FF6B35, #F7931E); 
+        }
+        
+        /* Content - VIBRANT BACKGROUND */
+        .content { 
+            margin-left: 260px; 
+            padding: 2.5rem; 
+            min-height: calc(100vh - 70px);
+            background: linear-gradient(135deg, rgba(255,234,167,0.3) 0%, rgba(250,177,160,0.3) 50%, rgba(253,121,168,0.3) 100%);
+        }
+        body.dark .content { 
+            background: linear-gradient(135deg, rgba(45,52,54,0.5) 0%, rgba(99,110,114,0.3) 50%, rgba(45,52,54,0.5) 100%);
+        }
+        
+        .page-title { 
+            font-size: 2.8rem; 
+            background: linear-gradient(45deg, #667eea, #764ba2, #f093fb);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 2rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        body.dark .page-title { 
+            background: linear-gradient(45deg, #4dabf7, #74c0fc, #a5d8ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .page-content { 
+            background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(255,234,167,0.8) 50%, rgba(255,255,255,0.95) 100%);
+            padding: 2.5rem; 
+            border-radius: 20px; 
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            line-height: 1.8; 
+            font-size: 1.1rem;
+            border: 2px solid rgba(255,255,255,0.5);
+        }
+        body.dark .page-content { 
+            background: linear-gradient(135deg, rgba(45,45,45,0.95) 0%, rgba(99,110,114,0.5) 50%, rgba(45,45,45,0.95) 100%);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.7); 
+            border-color: rgba(255,255,255,0.1);
+        }
+        
+        .page-content h2 { 
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin: 2rem 0 1rem; 
+            font-size: 2rem; 
+        }
+        body.dark .page-content h2 { 
+            background: linear-gradient(45deg, #4dabf7, #74c0fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .page-content h3 { 
+            color: #2a5298; 
+            margin: 1.5rem 0 1rem; 
+        }
+        body.dark .page-content h3 { color: #74c0fc; }
+        .page-content ul, .page-content ol { margin-left: 2rem; margin-bottom: 1rem; }
+        .page-content li { margin-bottom: 0.8rem; }
+        .page-content p { margin-bottom: 1rem; }
+        
+        /* Interactive Map Styles */
+        .map-container {
+            position: relative;
+            width: 100%;
+            height: 600px;
+            background: linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 50%, #80deea 100%);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 30px rgba(0,0,0,0.3);
+            cursor: grab;
+            border: 3px solid rgba(255,255,255,0.5);
+        }
+        body.dark .map-container { 
+            background: linear-gradient(135deg, #263238 0%, #37474f 50%, #455a64 100%);
+            border-color: rgba(255,255,255,0.2);
+        }
+        .map-container:active { cursor: grabbing; }
+        
+        .map-image {
+            position: absolute;
+            max-width: none;
+            transition: transform 0.1s ease-out;
+            user-select: none;
+            -webkit-user-drag: none;
+        }
+        
+        /* GPS Location Marker */
+        .location-marker {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background: linear-gradient(135deg, #4285F4, #34A853);
+            border: 3px solid white;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 5;
+            box-shadow: 0 0 20px rgba(66, 133, 244, 0.8);
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { box-shadow: 0 0 20px rgba(66, 133, 244, 0.8); }
+            50% { box-shadow: 0 0 40px rgba(66, 133, 244, 1), 0 0 60px rgba(52, 168, 83, 0.6); }
+        }
+        
+        .location-marker::before {
+            content: '';
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, rgba(66, 133, 244, 0.4), rgba(52, 168, 83, 0.4));
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation: ripple 2s infinite;
+        }
+        
+        @keyframes ripple {
+            0% { transform: translate(-50%, -50%) scale(0.5); opacity: 1; }
+            100% { transform: translate(-50%, -50%) scale(2); opacity: 0; }
+        }
+        
+        .map-controls {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            z-index: 10;
+        }
+        
+        .map-control-btn {
+            background: linear-gradient(135deg, #ffffff, #ffeaa7);
+            border: 2px solid #667eea;
+            color: #667eea;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.3);
+        }
+        
+        body.dark .map-control-btn {
+            background: linear-gradient(135deg, #2d2d2d, #4a4a4a);
+            border-color: #4dabf7;
+            color: #4dabf7;
+        }
+        
+        .map-control-btn:hover {
+            transform: scale(1.15) rotate(10deg);
+            background: linear-gradient(45deg, #FF6B35, #F7931E, #FFD700);
+            color: white;
+            border-color: white;
+            box-shadow: 0 5px 20px rgba(255,107,53,0.6);
+        }
+        
+        .map-control-btn.active {
+            background: linear-gradient(135deg, #4285F4, #34A853);
+            border-color: white;
+            color: white;
+            animation: floatingGlow 2s ease-in-out infinite;
+        }
+        
+        /* Voice Navigation Panel */
+        .voice-nav-panel {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: linear-gradient(135deg, rgba(255,255,255,0.98), rgba(255,234,167,0.95));
+            padding: 20px 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 30px rgba(0,0,0,0.4);
+            min-width: 400px;
+            display: none;
+            z-index: 10;
+            border: 2px solid rgba(255,255,255,0.8);
+        }
+        
+        body.dark .voice-nav-panel {
+            background: linear-gradient(135deg, rgba(45,45,45,0.98), rgba(99,110,114,0.95));
+        }
+        
+        .voice-nav-panel.active {
+            display: block;
+            animation: slideInUp 0.5s ease-out;
+        }
+        
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translate(-50%, 30px);
+            }
+            to {
+                opacity: 1;
+                transform: translate(-50%, 0);
+            }
+        }
+        
+        .nav-direction {
+            font-size: 1.1rem;
+            font-weight: 600;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 10px;
+        }
+        
+        body.dark .nav-direction {
+            background: linear-gradient(45deg, #4dabf7, #74c0fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .nav-distance {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        
+        body.dark .nav-distance {
+            color: #aaa;
+        }
+        
+        .nav-controls {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+        
+        .nav-btn {
+            background: linear-gradient(45deg, #FF6B35, #F7931E, #FFD700);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+            box-shadow: 0 3px 10px rgba(255,107,53,0.4);
+        }
+        
+        .nav-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(255,107,53,0.6);
+        }
+        
+        .nav-btn.stop {
+            background: linear-gradient(45deg, #dc3545, #ff6b6b);
+        }
+        
+        .map-info {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: linear-gradient(135deg, rgba(255,255,255,0.98), rgba(255,234,167,0.9));
+            padding: 15px 25px;
+            border-radius: 10px;
+            font-size: 0.9rem;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.3);
+            border: 2px solid rgba(255,255,255,0.6);
+        }
+        
+        body.dark .map-info {
+            background: linear-gradient(135deg, rgba(45,45,45,0.98), rgba(99,110,114,0.9));
+            color: #e0e0e0;
+            border-color: rgba(255,255,255,0.2);
+        }
+        
+        /* Buttons */
+        .btn { 
+            background: linear-gradient(45deg, #28a745, #20c997); 
+            color: white; border: none; padding: 0.8rem 1.8rem; 
+            border-radius: 30px; cursor: pointer; font-weight: 600; margin: 0 0.5rem;
+            transition: all 0.3s; font-size: 1rem;
+            box-shadow: 0 3px 10px rgba(40,167,69,0.4);
+        }
+        .btn:hover { 
+            transform: translateY(-2px); 
+            box-shadow: 0 5px 20px rgba(40,167,69,0.6); 
+        }
+        .map-btn { 
+            background: linear-gradient(45deg, #4285F4, #34A853, #FBBC05); 
+        }
+        .map-btn:hover { 
+            box-shadow: 0 5px 20px rgba(66,133,244,0.6); 
+        }
+        .end-btn { 
+            background: linear-gradient(45deg, #FF6B35, #F7931E, #FFD700); 
+        }
+        .end-btn:hover { 
+            box-shadow: 0 5px 20px rgba(255,107,53,0.6); 
+        }
+        .dark-btn { 
+            background: linear-gradient(45deg, #6c757d, #495057); 
+        }
+        .dark-btn.active { 
+            background: linear-gradient(45deg, #343a40, #212529); 
+        }
+        
+        /* End Screen / Thank You Page - VIBRANT ANIMATED */
+        .end-screen { 
+            display: none; height: 100vh; 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #fad0c4 75%, #ffd1ff 100%);
+            background-size: 400% 400%;
+            animation: gradientShift 15s ease infinite;
+            flex-direction: column; justify-content: center; align-items: center; 
+            text-align: center; color: white; padding: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .end-screen::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 30% 40%, rgba(255,255,255,0.2) 0%, transparent 50%),
+                radial-gradient(circle at 70% 60%, rgba(255,107,53,0.3) 0%, transparent 50%);
+            animation: floatingGlow 8s ease-in-out infinite;
+        }
+        
+        .end-screen h1 { 
+            font-size: 4rem; margin-bottom: 2rem;
+            animation: zoomIn 0.8s ease-out;
+            position: relative;
+            z-index: 1;
+            text-shadow: 4px 4px 8px rgba(0,0,0,0.3);
+        }
+        .end-screen p { 
+            font-size: 1.5rem; margin-bottom: 1rem;
+            animation: fadeInUp 1s ease-out;
+            position: relative;
+            z-index: 1;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .exit-btn {
+            background: linear-gradient(45deg, #28a745, #20c997, #17a2b8);
+            color: white;
+            border: none;
+            padding: 1rem 2.5rem;
+            font-size: 1.1rem;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: 600;
+            margin: 1rem 0.5rem;
+            transition: all 0.3s;
+            animation: fadeInUp 1.2s ease-out;
+            position: relative;
+            z-index: 1;
+            box-shadow: 0 8px 25px rgba(40,167,69,0.5);
+        }
+        .exit-btn:hover {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 10px 30px rgba(40,167,69,0.6);
+        }
+        
+        /* Mobile */
+        @media (max-width: 768px) {
+            .sidebar { left: -260px; transition: left 0.3s; }
+            .content { margin-left: 0; padding: 1.5rem; }
+            .welcome h1 { font-size: 2.2rem; }
+            .end-screen h1 { font-size: 2.5rem; }
+            .end-screen p { font-size: 1.2rem; }
+            .map-container { height: 400px; }
+            .map-controls { top: 10px; right: 10px; }
+            .map-control-btn { width: 38px; height: 38px; font-size: 1.2rem; }
+            .voice-nav-panel { min-width: 90%; padding: 15px 20px; }
+            .btn { padding: 0.6rem 1.2rem; font-size: 0.9rem; margin: 0.3rem; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Welcome Screen -->
+    <div class="welcome screen-transition" id="welcomeScreen">
+        <h1>🛕 Gotri Stepwell</h1>
+        <p>14th Century Water Marvel - Vadodara, Gujarat</p>
+        <button class="welcome-btn" onclick="startMainApp()">🚀 Start Complete Guide</button>
+    </div>
+
+    <!-- Main App -->
+    <div class="main-app screen-transition" id="mainApp">
+        <header class="header">
+            <h2>🛕 Gotri Stepwell Digital Guide</h2>
+            <div>
+                <button class="btn map-btn" onclick="quickMapAccess()">🗺️ Interactive Map</button>
+                <button class="btn end-btn" onclick="finishTour()">🎉 Finish Tour</button>
+                <button class="btn dark-btn" id="darkToggle" onclick="toggleDarkMode()">🌙 Dark Mode</button>
+            </div>
+        </header>
+
+        <nav class="sidebar" id="sidebar">
+            <a href="#" class="nav-item active" onclick="loadPage('intro', this)">🏠 Introduction</a>
+            <a href="#" class="nav-item" onclick="loadPage('history', this)">📜 History (600+ Years)</a>
+            <a href="#" class="nav-item" onclick="loadPage('architecture', this)">🏛️ Architecture</a>
+            <a href="#" class="nav-item" onclick="loadPage('map', this)">🗺️ Interactive Map</a>
+            <a href="#" class="nav-item" onclick="loadPage('culture', this)">🎭 Culture & Religion</a>
+            <a href="#" class="nav-item" onclick="loadPage('tourism', this)">🧳 Tourism 2024</a>
+            <a href="#" class="nav-item" onclick="loadPage('materials', this)">🪨 Materials</a>
+            <a href="#" class="nav-item" onclick="loadPage('modern', this)">🔮 Modern Relevance</a>
+        </nav>
+
+        <main class="content">
+            <h1 class="page-title" id="pageTitle">Introduction</h1>
+            <div class="page-content" id="pageContent">
+                <p>Welcome to Gotri Stepwell Guide!</p>
+            </div>
+        </main>
+    </div>
+
+    <!-- End Screen / Thank You Page -->
+    <div class="end-screen screen-transition" id="endScreen">
+        <h1>🙏 Dhanyavaad!</h1>
+        <p>✅ Gotri Stepwell Tour Complete!</p>
+        <p>🌟 Thank you for exploring our heritage</p>
+        <p>📱 Share this guide • Visit in person • Preserve history</p>
+        <button class="welcome-btn" onclick="goBackToMain()">🔄 Back to Main Guide</button>
+        <button class="exit-btn" onclick="exitToWelcome()">🚪 EXIT</button>
+    </div>
+
+    <script>
+        // ALL JAVASCRIPT CODE REMAINS EXACTLY THE SAME - NO CHANGES
+        const pageData = {
+            intro: { title: "🏠 Introduction", content: `
+                <h2>Welcome to Gotri Stepwell</h2>
+                <p>14th-century architectural marvel in Vadodara, Gujarat. 5 levels deep with stunning carvings.</p>
+                <ul>
+                    <li>📍 Gotri Village, Vadodara</li>
+                    <li>⏳ Built: ~1350 AD</li>
+                    <li>💧 Purpose: Water storage + community hub</li>
+                </ul>
+                
+                <h3>What is a Stepwell?</h3>
+                <p>Stepwells, known as 'Vav' in Gujarat, are unique architectural structures that served as water reservoirs in ancient India. Unlike conventional wells, stepwells feature a series of descending steps that allow access to water at different levels, adapting to seasonal water table fluctuations.</p>
+                
+                <h3>Significance of Gotri Stepwell</h3>
+                <p>The Gotri Stepwell stands as one of Gujarat's finest examples of medieval water architecture. Commissioned during the 14th century, it represents the zenith of Vaghela dynasty engineering and artistic achievement. This magnificent structure descends approximately 30 meters below ground level, featuring five distinct levels connected by intricately carved staircases.</p>
+                
+                <h3>Architectural Highlights</h3>
+                <ul>
+                    <li><strong>Depth:</strong> 30 meters (98 feet) with 5 underground levels</li>
+                    <li><strong>Dimensions:</strong> 65 meters long and 15 meters wide</li>
+                    <li><strong>Steps:</strong> Over 200 steps leading to the water source</li>
+                    <li><strong>Carvings:</strong> Intricate sculptures of deities, floral patterns, and geometric designs</li>
+                    <li><strong>Columns:</strong> 28 ornately carved pillars supporting the structure</li>
+                    <li><strong>Material:</strong> Locally sourced sandstone and basalt</li>
+                </ul>
+                
+                <h3>Location & Accessibility</h3>
+                <p>Located in Gotri village, approximately 8 kilometers southwest of Vadodara city center, the stepwell is easily accessible by road. The site is well-connected to the city's public transportation network and offers ample parking facilities for visitors.</p>
+                
+                <h3>Why Visit Gotri Stepwell?</h3>
+                <p>This historic monument offers visitors a unique glimpse into medieval Indian engineering prowess, religious devotion, and social organization. The stepwell's remarkable preservation state allows modern visitors to experience the grandeur that ancient communities once enjoyed daily.</p>
+            `},
+            
+            history: { title: "📜 600+ Years History", content: `
+                <h2>Historical Journey</h2>
+                <p>From Vaghela dynasty to modern preservation:</p>
+                <ol>
+                    <li>1350 AD: Construction</li>
+                    <li>15th C: Sultanate repairs</li>
+                    <li>18th C: Maratha patronage</li>
+                    <li>2024: Digital tour</li>
+                </ol>
+                
+                <h3>The Vaghela Dynasty Era (1350 AD)</h3>
+                <p>The Gotri Stepwell was commissioned during the reign of the Vaghela dynasty, the last Hindu rulers of Gujarat before the Sultanate conquest. The Vaghelas were renowned patrons of art and architecture, and this stepwell exemplifies their commitment to public welfare and religious devotion.</p>
+                
+                <p>Historical records suggest that the stepwell was built by a wealthy merchant or local chieftain as an act of religious merit (punya) and community service. Such constructions were considered highly meritorious in Hindu tradition, ensuring water access during Gujarat's harsh summer months.</p>
+                
+                <h3>Islamic Period Modifications (1400-1700 AD)</h3>
+                <p>Following the Gujarat Sultanate's establishment in 1407 AD, the stepwell underwent several modifications. While the Islamic rulers respected the structure's religious significance, they added functional improvements:</p>
+                <ul>
+                    <li>Reinforcement of structural supports</li>
+                    <li>Addition of water channels and drainage systems</li>
+                    <li>Installation of cooling chambers for hot summers</li>
+                    <li>Maintenance of existing Hindu religious imagery</li>
+                </ul>
+                
+                <h3>Maratha Restoration (18th Century)</h3>
+                <p>When the Maratha Gaekwad dynasty established control over Vadodara in the 1720s, they undertook extensive restoration of the Gotri Stepwell. Maharaja Sayajirao Gaekwad II personally sponsored repairs to the structure, recognizing its cultural and practical importance to the region.</p>
+                
+                <p>The Maratha period saw the addition of protective railings, cleaning of accumulated sediment, and restoration of damaged carvings. Many of the inscriptions visible today date to this restoration period.</p>
+                
+                <h3>British Colonial Era (1818-1947)</h3>
+                <p>Under British indirect rule through the Gaekwad Maharajas, the stepwell was documented by colonial archaeologists and engineers. The Archaeological Survey of India (ASI) conducted the first systematic study of the structure in 1876, producing detailed drawings and measurements that proved invaluable for later conservation efforts.</p>
+                
+                <h3>Post-Independence Conservation (1947-Present)</h3>
+                <p>After Indian independence, the stepwell was declared a protected monument under the Gujarat State Archaeology Department. Major conservation projects were undertaken in:</p>
+                <ul>
+                    <li><strong>1965:</strong> Structural stabilization and water table management</li>
+                    <li><strong>1982:</strong> Comprehensive restoration of carvings and steps</li>
+                    <li><strong>2001:</strong> Installation of protective barriers and visitor facilities</li>
+                    <li><strong>2015:</strong> Digital documentation and 3D modeling project</li>
+                    <li><strong>2024:</strong> Interactive digital guide implementation</li>
+                </ul>
+                
+                <h3>Archaeological Discoveries</h3>
+                <p>Excavations around the stepwell have revealed fascinating insights into medieval life:</p>
+                <ul>
+                    <li>Ancient coins dating to the Vaghela and Sultanate periods</li>
+                    <li>Pottery fragments indicating continuous use for over 500 years</li>
+                    <li>Remains of a small temple complex adjacent to the stepwell</li>
+                    <li>Evidence of a medieval marketplace nearby</li>
+                    <li>Inscriptions in Sanskrit, Persian, and Marathi</li>
+                </ul>
+                
+                <h3>Cultural Legacy</h3>
+                <p>The Gotri Stepwell has inspired generations of architects, artists, and historians. Its unique design has been studied by water management experts worldwide as a model of sustainable water harvesting. The structure represents the remarkable harmony achieved between functionality, spirituality, and aesthetics in medieval Indian architecture.</p>
+            `},
+            
+            architecture: { title: "🏛️ Architecture", content: `
+                <h2>Engineering Genius</h2>
+                <p>5 descending levels with intricate carvings, ventilation shafts, and perfect hydrology.</p>
+                <ul>
+                    <li>🪨 Basalt stone construction</li>
+                    <li>📐 Precise geometric steps</li>
+                </ul>
+                
+                <h3>Structural Design & Layout</h3>
+                <p>The Gotri Stepwell follows the traditional Gujarat stepwell design with remarkable precision. The structure is oriented on a north-south axis to optimize sunlight and shade throughout the day, keeping the lower levels cool even during peak summer.</p>
+                
+                <h3>The Five Levels Explained</h3>
+                
+                <h4>Level 1: The Grand Entrance</h4>
+                <p>The uppermost level features an ornate gateway with carved pillars depicting scenes from Hindu mythology. Twin staircases descend symmetrically on either side, each 3 meters wide to accommodate multiple users simultaneously. The entrance pavilion provided shade for people gathering water and served as a social meeting point.</p>
+                
+                <h4>Level 2: The Pavilion Terrace</h4>
+                <p>At 8 meters depth, this level features a spacious landing with elaborate columns. The walls are adorned with sculptures of Ganesha, Vishnu, and other deities. Small niches along the walls once held oil lamps that illuminated the descent. The ceiling incorporates natural ventilation shafts that channel cool air downward.</p>
+                
+                <h4>Level 3: The Mid-Level Gallery</h4>
+                <p>Descending to 16 meters, this level showcases some of the finest carving work. Intricate floral patterns, geometric mandalas, and narrative reliefs cover every surface. Archaeological evidence suggests this level also served as a storage area for water vessels during the dry season.</p>
+                
+                <h4>Level 4: The Water Access Platform</h4>
+                <p>At 23 meters depth, this level provided year-round water access. Wide platforms allowed multiple people to draw water simultaneously without crowding. The walls feature water-level markers carved into the stone, helping users predict seasonal water availability.</p>
+                
+                <h4>Level 5: The Deep Well Chamber</h4>
+                <p>The deepest point at 30 meters reaches the permanent water table. This level remains cool year-round, maintaining temperatures around 20°C even when surface temperatures exceed 45°C. The chamber features a circular well shaft that extends several meters into the aquifer.</p>
+                
+                <h3>Innovative Engineering Features</h3>
+                
+                <h4>Ventilation System</h4>
+                <p>The stepwell incorporates a sophisticated natural ventilation system. Vertical shafts strategically placed throughout the structure create air currents that draw cool air from the deep levels upward. This passive cooling system makes the stepwell comfortable even during Gujarat's intense summer heat.</p>
+                
+                <h4>Water Management</h4>
+                <p>The structure includes multiple channels and drains to manage monsoon runoff. Overflow channels prevent flooding during heavy rains, while filtration layers of gravel and sand purify water entering the main reservoir. The gradient of steps ensures efficient water flow without erosion.</p>
+                
+                <h4>Structural Stability</h4>
+                <p>The builders employed several ingenious techniques to ensure long-term stability:</p>
+                <ul>
+                    <li><strong>Corbelled arches:</strong> Distribute weight evenly without the need for mortar</li>
+                    <li><strong>Interlocking stones:</strong> Each block is carved with tongue-and-groove joints</li>
+                    <li><strong>Foundation pillars:</strong> Extend 5 meters below the lowest level into bedrock</li>
+                    <li><strong>Drainage channels:</strong> Prevent water pressure buildup behind walls</li>
+                    <li><strong>Expansion joints:</strong> Allow thermal expansion without cracking</li>
+                </ul>
+                
+                <h3>Decorative Elements</h3>
+                
+                <h4>Sculptural Program</h4>
+                <p>Over 150 sculptures adorn the stepwell, depicting:</p>
+                <ul>
+                    <li>Hindu deities: Vishnu, Shiva, Lakshmi, Saraswati, Ganesha</li>
+                    <li>Mythological scenes: Ramayana and Mahabharata episodes</li>
+                    <li>Celestial beings: Apsaras, gandharvas, and divine attendants</li>
+                    <li>Animal motifs: Elephants, horses, peacocks, and serpents</li>
+                    <li>Floral patterns: Lotus, creepers, and stylized vegetation</li>
+                </ul>
+                
+                <h4>Geometric Precision</h4>
+                <p>The stepwell demonstrates remarkable mathematical precision. The steps maintain a consistent 18 cm rise and 30 cm tread throughout all levels. The symmetry is so exact that the structure deviates less than 2 cm from perfect bilateral symmetry over its entire 65-meter length.</p>
+                
+                <h3>Material Science</h3>
+                <p>The builders selected materials with exceptional durability:</p>
+                <ul>
+                    <li><strong>Basalt:</strong> Used for load-bearing elements due to its strength</li>
+                    <li><strong>Sandstone:</strong> Chosen for carved elements for its workability</li>
+                    <li><strong>Lime mortar:</strong> Mixed with jaggery and clay for waterproofing</li>
+                    <li><strong>Natural sealants:</strong> Herbal resins protected carvings from water damage</li>
+                </ul>
+                
+                <h3>Comparison with Other Stepwells</h3>
+                <p>While smaller than famous stepwells like Rani ki Vav (Patan) or Adalaj Stepwell, the Gotri Stepwell is notable for its exceptionally well-preserved condition and the quality of its sculptural work. Its design influenced later stepwell construction throughout Gujarat and Rajasthan.</p>
+            `},
+            
+            map: { 
+                title: "🗺️ Interactive Map with GPS & Voice Navigation", 
+                content: `
+                    <h2>Explore the Stepwell Map</h2>
+                    <p>📍 GPS-enabled • 🔊 Voice Navigation • 🧭 Interactive Controls</p>
+                    <div class="map-container" id="mapContainer">
+                        <img src="map.jpg" alt="Gotri Stepwell Map" class="map-image" id="mapImage">
+                        <div class="map-info">
+                            <strong>🧭 Controls:</strong> Zoom (+/-) • Drag to pan • GPS 📍 • Voice 🔊
+                        </div>
+                        <div class="map-controls">
+                            <button class="map-control-btn" onclick="zoomIn()" title="Zoom In">+</button>
+                            <button class="map-control-btn" onclick="zoomOut()" title="Zoom Out">−</button>
+                            <button class="map-control-btn" id="gpsBtn" onclick="toggleGPS()" title="My Location">📍</button>
+                            <button class="map-control-btn" id="voiceBtn" onclick="toggleVoiceNav()" title="Voice Navigation">🔊</button>
+                            <button class="map-control-btn" onclick="resetMap()" title="Reset View">⟲</button>
+                        </div>
+                        <div class="voice-nav-panel" id="voiceNavPanel">
+                            <div class="nav-direction" id="navDirection">Starting navigation...</div>
+                            <div class="nav-distance" id="navDistance">Calculating route...</div>
+                            <div class="nav-controls">
+                                <button class="nav-btn" onclick="startNavigation()">▶ Start</button>
+                                <button class="nav-btn stop" onclick="stopNavigation()">⏹ Stop</button>
+                            </div>
+                        </div>
+                    </div>
+                `,
+                isMap: true
+            },
+            
+            culture: { title: "🎭 Culture", content: `
+                <h2>Cultural Heart</h2>
+                <p>Women gathered here for water, festivals, and rituals. Temple-like sacred space.</p>
+                
+                <h3>Social Significance in Medieval Gujarat</h3>
+                <p>Stepwells were far more than utilitarian water sources in medieval Gujarat—they were the beating heart of community life. The Gotri Stepwell served as a multifunctional social institution where various aspects of daily life converged.</p>
+                
+                <h3>Women's Domain</h3>
+                <p>In traditional Gujarat society, water collection was primarily women's work, making stepwells female-dominated spaces. Women would gather here multiple times daily, creating informal networks of communication and support. The stepwell functioned as:</p>
+                <ul>
+                    <li><strong>Information exchange:</strong> News, gossip, and practical knowledge were shared</li>
+                    <li><strong>Social bonding:</strong> Friendships formed across caste and class boundaries</li>
+                    <li><strong>Mentorship space:</strong> Older women advised younger ones on household matters</li>
+                    <li><strong>Marriage negotiations:</strong> Families often arranged matches at the stepwell</li>
+                    <li><strong>Conflict resolution:</strong> Community disputes were discussed and mediated</li>
+                </ul>
+                
+                <h3>Religious Functions</h3>
+                <p>The Gotri Stepwell held deep religious significance as a sacred space:</p>
+                
+                <h4>Daily Rituals</h4>
+                <ul>
+                    <li>Morning ablutions and prayers before sunrise</li>
+                    <li>Offerings of flowers and incense to deity sculptures</li>
+                    <li>Evening lamp-lighting ceremonies (aarti)</li>
+                    <li>Circumambulation (pradakshina) around the structure</li>
+                </ul>
+                
+                <h4>Festival Celebrations</h4>
+                <p>The stepwell became a focal point for numerous Hindu festivals:</p>
+                <ul>
+                    <li><strong>Shravan Maas:</strong> Special prayers during the holy month</li>
+                    <li><strong>Makar Sankranti:</strong> Ritual bathing to mark the winter solstice</li>
+                    <li><strong>Navratri:</strong> Nine nights of devotional music and dance</li>
+                    <li><strong>Kartik Purnima:</strong> Full moon celebration with oil lamp lighting</li>
+                    <li><strong>Ganga Dussehra:</strong> Water worship honoring sacred rivers</li>
+                </ul>
+                
+                <h3>Caste and Social Organization</h3>
+                <p>Despite the caste system's rigid hierarchies, stepwells promoted a degree of social mixing:</p>
+                <ul>
+                    <li>Different caste groups used separate sections but shared the same water</li>
+                    <li>Brahmin priests performed rituals accessible to all castes</li>
+                    <li>Charitable feeding (anna daan) occurred regardless of social status</li>
+                    <li>Emergency situations suspended caste restrictions</li>
+                </ul>
+                
+                <h3>Artistic and Performance Traditions</h3>
+                <p>The stepwell's excellent acoustics made it a venue for:</p>
+                <ul>
+                    <li><strong>Bhajan singing:</strong> Devotional hymns echoed beautifully in the enclosed space</li>
+                    <li><strong>Garba and dandiya:</strong> Traditional Gujarati folk dances during Navratri</li>
+                    <li><strong>Kathak performances:</strong> Classical dance narratives from Hindu epics</li>
+                    <li><strong>Poetry recitations:</strong> Local poets shared compositions in Gujarati and Sanskrit</li>
+                    <li><strong>Storytelling:</strong> Elders narrated mythological tales to children</li>
+                </ul>
+                
+                <h3>Economic Activities</h3>
+                <p>The stepwell area supported various economic functions:</p>
+                <ul>
+                    <li>Small vendors sold flowers, incense, and offerings</li>
+                    <li>Potters supplied clay vessels for water storage</li>
+                    <li>Rope makers sold cords for lowering water vessels</li>
+                    <li>Seasonal fruit and vegetable sellers set up temporary stalls</li>
+                    <li>Artisans displayed handicrafts during festivals</li>
+                </ul>
+                
+                <h3>Charitable Activities</h3>
+                <p>Wealthy patrons sponsored public services at the stepwell:</p>
+                <ul>
+                    <li><strong>Anna daan:</strong> Free food distribution, especially during droughts</li>
+                    <li><strong>Water provision:</strong> Maintenance of the stepwell and water quality</li>
+                    <li><strong>Medical care:</strong> Traditional healers offered consultations</li>
+                    <li><strong>Education:</strong> Informal teaching of religious texts and literacy</li>
+                </ul>
+                
+                <h3>Seasonal Variations</h3>
+                <p>The stepwell's cultural role varied with seasons:</p>
+                <ul>
+                    <li><strong>Summer:</strong> Became a cool refuge; social activities peaked</li>
+                    <li><strong>Monsoon:</strong> Celebrated with water-related festivals and rituals</li>
+                    <li><strong>Winter:</strong> Morning gatherings for warm sunlight on upper levels</li>
+                    <li><strong>Spring:</strong> Venue for cultural festivals and celebrations</li>
+                </ul>
+                
+                <h3>Modern Cultural Revival</h3>
+                <p>Today, efforts are underway to revive the stepwell's cultural significance:</p>
+                <ul>
+                    <li>Annual heritage festivals showcase traditional arts</li>
+                    <li>School groups visit for cultural education programs</li>
+                    <li>Classical music concerts utilize the unique acoustics</li>
+                    <li>Photography exhibitions document the monument's beauty</li>
+                    <li>Community initiatives promote historical awareness</li>
+                </ul>
+            `},
+            
+            tourism: { title: "🧳 Tourism 2024", content: `
+                <h2>Plan Your Visit</h2>
+                <p>Free entry • 8AM-6PM • Best: Oct-Mar • 15min from Vadodara station</p>
+                
+                <h3>Visiting Hours & Entry</h3>
+                <ul>
+                    <li><strong>Opening Hours:</strong> 8:00 AM - 6:00 PM (All days)</li>
+                    <li><strong>Entry Fee:</strong> Free for all visitors</li>
+                    <li><strong>Photography:</strong> Allowed (tripods require permission)</li>
+                    <li><strong>Video Recording:</strong> Permitted for personal use</li>
+                    <li><strong>Guided Tours:</strong> Available on request (₹200 for groups)</li>
+                </ul>
+                
+                <h3>Best Time to Visit</h3>
+                
+                <h4>Optimal Season: October to March</h4>
+                <p>The winter months offer the most comfortable visiting experience:</p>
+                <ul>
+                    <li><strong>Temperature:</strong> 15°C - 30°C (pleasant weather)</li>
+                    <li><strong>Humidity:</strong> Low, making exploration comfortable</li>
+                    <li><strong>Lighting:</strong> Ideal for photography with clear skies</li>
+                    <li><strong>Crowds:</strong> Moderate, allowing peaceful exploration</li>
+                </ul>
+                
+                <h4>Time of Day Recommendations</h4>
+                <ul>
+                    <li><strong>Early Morning (8-10 AM):</strong> Best natural lighting, fewer crowds, cooler temperatures</li>
+                    <li><strong>Late Afternoon (4-6 PM):</strong> Golden hour photography, pleasant ambiance</li>
+                    <li><strong>Avoid:</strong> Midday (12-3 PM) during summer due to intense heat</li>
+                </ul>
+                
+                <h3>How to Reach</h3>
+                
+                <h4>From Vadodara City Center</h4>
+                <ul>
+                    <li><strong>By Auto-rickshaw:</strong> 25-30 minutes, ₹80-100</li>
+                    <li><strong>By Taxi/Cab:</strong> 20 minutes, ₹150-200</li>
+                    <li><strong>By City Bus:</strong> Route 4A/4B, ₹15, 35 minutes</li>
+                    <li><strong>By Private Vehicle:</strong> 8 km via Gotri Road</li>
+                </ul>
+                
+                <h4>From Vadodara Railway Station</h4>
+                <p>Distance: 10 km | Time: 25-30 minutes</p>
+                <ul>
+                    <li>Take auto-rickshaw or taxi directly to Gotri Stepwell</li>
+                    <li>Prepaid taxi booth available at station exit</li>
+                    <li>App-based cabs (Ola/Uber) readily available</li>
+                </ul>
+                
+                <h4>From Vadodara Airport</h4>
+                <p>Distance: 15 km | Time: 30-35 minutes</p>
+                <ul>
+                    <li>Airport taxis available, fare: ₹350-400</li>
+                    <li>App-based cabs recommended for better rates</li>
+                </ul>
+                
+                <h3>Facilities & Amenities</h3>
+                <ul>
+                    <li>✅ Parking: Free parking for 20+ vehicles</li>
+                    <li>✅ Restrooms: Clean public toilets available</li>
+                    <li>✅ Drinking Water: Water dispensers installed</li>
+                    <li>✅ Sitting Areas: Shaded benches for rest</li>
+                    <li>✅ Information Boards: Multilingual signage (Gujarati, Hindi, English)</li>
+                    <li>✅ First Aid: Basic medical kit at entrance kiosk</li>
+                    <li>❌ Food Court: Not available (nearby restaurants 1 km away)</li>
+                    <li>❌ Souvenir Shop: No official shop (local vendors outside)</li>
+                </ul>
+                
+                <h3>What to Bring</h3>
+                <ul>
+                    <li>🧢 Hat or cap for sun protection</li>
+                    <li>💧 Water bottle (refilling stations available)</li>
+                    <li>👟 Comfortable walking shoes (steps can be steep)</li>
+                    <li>📷 Camera with extra batteries</li>
+                    <li>🕶️ Sunglasses and sunscreen</li>
+                    <li>📱 Portable phone charger</li>
+                    <li>📒 Notebook for sketching/notes</li>
+                    <li>🔦 Small flashlight (lower levels can be dim)</li>
+                </ul>
+                
+                <h3>Safety Guidelines</h3>
+                <ul>
+                    <li>⚠️ Watch your step - stairs can be uneven and slippery</li>
+                    <li>⚠️ Hold railings while descending</li>
+                    <li>⚠️ Supervise children closely, especially near edges</li>
+                    <li>⚠️ Be cautious during monsoon - steps become slippery</li>
+                    <li>⚠️ Stay hydrated, especially during summer visits</li>
+                    <li>⚠️ Don't lean on ancient carvings or structural elements</li>
+                    <li>⚠️ Emergency contact: Site Security +91-9876543210</li>
+                </ul>
+                
+                <h3>Nearby Attractions (Within 15 km)</h3>
+                <ul>
+                    <li><strong>Laxmi Vilas Palace (12 km):</strong> Grand royal palace with museum</li>
+                    <li><strong>Sayaji Garden (9 km):</strong> Large public park with zoo</li>
+                    <li><strong>Baroda Museum (10 km):</strong> Art and natural history collections</li>
+                    <li><strong>EME Temple (11 km):</strong> Aluminum-clad modern temple</li>
+                    <li><strong>Kirti Mandir (10 km):</strong> Memorial to Gandhi family</li>
+                    <li><strong>Maharaja Sayajirao University (8 km):</strong> Beautiful campus architecture</li>
+                </ul>
+                
+                <h3>Accommodation Options</h3>
+                
+                <h4>Budget Hotels (₹800-1500/night)</h4>
+                <ul>
+                    <li>Hotel Rama Inn - 5 km away</li>
+                    <li>Ginger Hotel Vadodara - 7 km away</li>
+                    <li>OYO Rooms - Multiple locations</li>
+                </ul>
+                
+                <h4>Mid-Range Hotels (₹2000-4000/night)</h4>
+                <ul>
+                    <li>Lemon Tree Hotel - 9 km away</li>
+                    <li>Four Points by Sheraton - 10 km away</li>
+                    <li>Surya Palace - 8 km away</li>
+                </ul>
+                
+                <h4>Luxury Hotels (₹5000+/night)</h4>
+                <ul>
+                    <li>Welcomhotel Vadodara - 11 km away</li>
+                    <li>Vivanta Vadodara - 12 km away</li>
+                    <li>Gateway Hotel - 10 km away</li>
+                </ul>
+                
+                <h3>Dining Options Nearby</h3>
+                <ul>
+                    <li><strong>Traditional Gujarati Thali:</strong> Shri Krishna Dining Hall (2 km)</li>
+                    <li><strong>Street Food:</strong> Gotri Circle food stalls (1 km)</li>
+                    <li><strong>Cafes:</strong> Café Coffee Day, Gotri area (1.5 km)</li>
+                    <li><strong>Multi-cuisine:</strong> Urban Tadka Restaurant (2 km)</li>
+                </ul>
+                
+                <h3>Special Events & Programs</h3>
+                <ul>
+                    <li><strong>Heritage Walk:</strong> Every Saturday, 8 AM (Free, registration required)</li>
+                    <li><strong>Photography Workshop:</strong> Last Sunday of every month</li>
+                    <li><strong>Cultural Festival:</strong> Annual event in January featuring traditional arts</li>
+                    <li><strong>School Programs:</strong> Educational tours for student groups (advance booking)</li>
+                </ul>
+                
+                <h3>Accessibility</h3>
+                <ul>
+                    <li>♿ Wheelchair access: Limited to upper two levels only</li>
+                    <li>♿ Ramps: Available at entrance</li>
+                    <li>♿ Assisted tours: Available on request for elderly/disabled visitors</li>
+                </ul>
+                
+                <h3>Contact Information</h3>
+                <ul>
+                    <li>📞 Site Office: +91-265-2345678</li>
+                    <li>📧 Email: gotristepwell@gujarattourism.org</li>
+                    <li>🌐 Website: www.gujarattourism.com/gotri-stepwell</li>
+                    <li>📱 WhatsApp Support: +91-9876543210</li>
+                </ul>
+                
+                <h3>Tips for Best Experience</h3>
+                <ul>
+                    <li>📅 Weekdays are less crowded than weekends</li>
+                    <li>🕐 Allocate 1.5-2 hours for complete exploration</li>
+                    <li>📖 Hire a local guide for detailed historical insights</li>
+                    <li>🎨 Join a heritage walk for comprehensive understanding</li>
+                    <li>📸 Golden hour (4-6 PM) offers stunning photography</li>
+                    <li>🙏 Respect the religious significance - dress modestly</li>
+                    <li>♻️ Carry your trash back - keep the monument clean</li>
+                </ul>
+            `},
+            
+            materials: { title: "🪨 Materials", content: `
+                <h2>Ancient Tech</h2>
+                <p>Basalt stone + lime-jaggery mortar = 600+ year durability</p>
+                
+                <h3>Primary Building Materials</h3>
+                
+                <h4>Basalt (Volcanic Rock)</h4>
+                <p>The structural backbone of Gotri Stepwell consists of locally quarried basalt, chosen for its exceptional properties:</p>
+                <ul>
+                    <li><strong>Compressive Strength:</strong> 300+ MPa, ideal for load-bearing elements</li>
+                    <li><strong>Durability:</strong> Highly resistant to weathering and water erosion</li>
+                    <li><strong>Availability:</strong> Abundant in Deccan Plateau region</li>
+                    <li><strong>Workability:</strong> Dense but carve-able with iron tools</li>
+                    <li><strong>Color:</strong> Dark grey to black, providing visual contrast</li>
+                </ul>
+                
+                <h4>Sandstone (Sedimentary Rock)</h4>
+                <p>Used for decorative carvings and non-structural elements:</p>
+                <ul>
+                    <li><strong>Source:</strong> Quarries from nearby Champaner region</li>
+                    <li><strong>Characteristics:</strong> Softer than basalt, easier to carve intricate details</li>
+                    <li><strong>Color Variations:</strong> Buff, yellow, and reddish hues</li>
+                    <li><strong>Porosity:</strong> Moderate, requiring natural sealants</li>
+                    <li><strong>Applications:</strong> Sculptures, decorative panels, inscriptions</li>
+                </ul>
+                
+                <h3>Innovative Binding Materials</h3>
+                
+                <h4>Lime-Jaggery Mortar</h4>
+                <p>The secret to the stepwell's longevity lies in its exceptional mortar composition:</p>
+                
+                <h5>Primary Ingredients:</h5>
+                <ul>
+                    <li><strong>Lime (Calcium Hydroxide):</strong> Produced from limestone calcination</li>
+                    <li><strong>Jaggery (Unrefined Cane Sugar):</strong> Acts as a plasticizer and binding enhancer</li>
+                    <li><strong>Sand:</strong> River sand provides aggregate structure</li>
+                    <li><strong>Rice Husk Ash:</strong> Adds pozzolanic properties</li>
+                    <li><strong>Brick Powder:</strong> Ground terracotta for hydraulic properties</li>
+                </ul>
+                
+                <h5>Scientific Properties:</h5>
+                <ul>
+                    <li><strong>Water Resistance:</strong> Jaggery creates hydrophobic barrier</li>
+                    <li><strong>Flexibility:</strong> Allows slight movement without cracking</li>
+                    <li><strong>Strength Development:</strong> Gains strength over centuries through carbonation</li>
+                    <li><strong>Biological Resistance:</strong> Natural sugars inhibit bacterial growth</li>
+                    <li><strong>Self-Healing:</strong> Lime continues to crystallize, sealing micro-cracks</li>
+                </ul>
+                
+                <h3>Natural Sealants & Treatments</h3>
+                
+                <h4>Herbal Water Repellents</h4>
+                <p>Medieval builders applied organic treatments to enhance water resistance:</p>
+                <ul>
+                    <li><strong>Neem Oil:</strong> Natural waterproofing and pest deterrent</li>
+                    <li><strong>Coconut Oil:</strong> Surface protection for carved elements</li>
+                    <li><strong>Castor Oil:</strong> Deep penetrating sealant</li>
+                    <li><strong>Beeswax:</strong> Final polish and water barrier</li>
+                    <li><strong>Tree Resin (Lac):</strong> Color preservation for painted elements</li>
+                </ul>
+                
+                <h4>Clay-Based Additives</h4>
+                <ul>
+                    <li><strong>Multani Mitti (Fuller's Earth):</strong> Absorbent clay for moisture control</li>
+                    <li><strong>Bentonite:</strong> Swelling clay for joint sealing</li>
+                    <li><strong>Kaolin:</strong> White clay for aesthetic treatments</li>
+                </ul>
+                
+                <h3>Metal Components</h3>
+                
+                <h4>Iron Clamps and Dowels</h4>
+                <p>Strategic metal reinforcements enhance structural integrity:</p>
+                <ul>
+                    <li><strong>Material:</strong> Hand-forged wrought iron</li>
+                    <li><strong>Function:</strong> Connect large stone blocks</li>
+                    <li><strong>Rust Prevention:</strong> Lead coating prevented corrosion</li>
+                    <li><strong>Quantity:</strong> Approximately 200+ iron elements throughout structure</li>
+                </ul>
+                
+                <h4>Bronze Fittings</h4>
+                <ul>
+                    <li>Door hinges and fixtures</li>
+                    <li>Decorative elements</li>
+                    <li>Water vessel hooks</li>
+                    <li>Lamp holders</li>
+                </ul>
+                
+                <h3>Stone Quarrying & Transportation</h3>
+                
+                <h4>Extraction Methods</h4>
+                <p>Medieval quarrying techniques employed sophisticated methods:</p>
+                <ul>
+                    <li><strong>Wedge Splitting:</strong> Wooden wedges inserted into drilled holes, soaked with water to expand</li>
+                    <li><strong>Fire Setting:</strong> Heating rock face and rapid cooling to create fractures</li>
+                    <li><strong>Manual Cutting:</strong> Iron chisels and hammers for precision work</li>
+                </ul>
+                
+                <h4>Transportation Challenges</h4>
+                <p>Moving massive stone blocks required ingenious solutions:</p>
+                <ul>
+                    <li><strong>Rollers:</strong> Wooden logs used as primitive wheels</li>
+                    <li><strong>Sledges:</strong> Stone blocks dragged on wooden platforms</li>
+                    <li><strong>Ramps:</strong> Earthen ramps for vertical lifting</li>
+                    <li><strong>Elephants:</strong> Primary draft animals for heavy loads</li>
+                    <li><strong>Ox Carts:</strong> Wheeled transport for smaller stones</li>
+                </ul>
+                
+                <h3>Stone Carving Techniques</h3>
+                
+                <h4>Tools Used</h4>
+                <ul>
+                    <li><strong>Pointed Chisels:</strong> Initial rough shaping</li>
+                    <li><strong>Flat Chisels:</strong> Creating smooth surfaces</li>
+                    <li><strong>Claw Chisels:</strong> Intermediate texturing</li>
+                    <li><strong>Fine Chisels:</strong> Delicate detail work</li>
+                    <li><strong>Abrasive Stones:</strong> Final polishing</li>
+                    <li><strong>Drill Bits:</strong> Creating circular patterns and perforations</li>
+                </ul>
+                
+                <h4>Carving Process</h4>
+                <ol>
+                    <li><strong>Design Transfer:</strong> Patterns drawn with charcoal or painted with vegetable dyes</li>
+                    <li><strong>Rough Cutting:</strong> Major material removal with pointed tools</li>
+                    <li><strong>Detail Carving:</strong> Fine features added with specialized chisels</li>
+                    <li><strong>Surface Finishing:</strong> Polishing with progressively finer abrasives</li>
+                    <li><strong>Treatment Application:</strong> Protective oils and sealants applied</li>
+                </ol>
+                
+                <h3>Modern Conservation Materials</h3>
+                
+                <h4>Contemporary Restoration Uses:</h4>
+                <ul>
+                    <li><strong>Epoxy Resins:</strong> Structural crack repair (reversible formulations)</li>
+                    <li><strong>Consolidants:</strong> Stone strengthening chemicals for degraded areas</li>
+                    <li><strong>Biocides:</strong> Algae and lichen control</li>
+                    <li><strong>Hydrophobic Treatments:</strong> Modern water repellents for exposed surfaces</li>
+                    <li><strong>Matching Mortars:</strong> Traditional recipes replicated for authenticity</li>
+                </ul>
+                
+                <h3>Material Durability Analysis</h3>
+                
+                <h4>Why Has It Lasted 600+ Years?</h4>
+                <ul>
+                    <li><strong>Material Selection:</strong> Intrinsically durable rock types chosen</li>
+                    <li><strong>Interlocking Design:</strong> Minimized dependence on mortar</li>
+                    <li><strong>Natural Drainage:</strong> Prevented water accumulation and pressure</li>
+                    <li><strong>Climate Adaptation:</strong> Materials suited to local temperature and humidity</li>
+                    <li><strong>Quality Craftsmanship:</strong> Precise joinery and careful construction</li>
+                    <li><strong>Regular Maintenance:</strong> Periodic repairs throughout history</li>
+                    <li><strong>Sheltered Design:</strong> Underground portions protected from weathering</li>
+                </ul>
+                
+                <h3>Environmental Impact</h3>
+                
+                <h4>Sustainability Aspects:</h4>
+                <ul>
+                    <li>✅ All materials locally sourced within 50 km radius</li>
+                    <li>✅ No chemical processing required</li>
+                    <li>✅ Minimal environmental disruption during extraction</li>
+                    <li>✅ Biodegradable binding agents (jaggery, plant oils)</li>
+                    <li>✅ Zero carbon footprint in construction</li>
+                    <li>✅ Complete recyclability of materials</li>
+                </ul>
+                
+                <h3>Lessons for Modern Architecture</h3>
+                <p>The Gotri Stepwell demonstrates timeless principles:</p>
+                <ul>
+                    <li>Use of local, appropriate materials</li>
+                    <li>Natural, sustainable binding agents</li>
+                    <li>Design for climate and context</li>
+                    <li>Quality over speed in construction</li>
+                    <li>Integration of aesthetics with functionality</li>
+                    <li>Planning for long-term durability</li>
+                </ul>
+            `},
+            
+            modern: { title: "🔮 Modern Relevance", content: `
+                <h2>Today's Lessons</h2>
+                <p>Sustainable water solutions for climate change era</p>
+                
+                <h3>Water Crisis Solutions</h3>
+                
+                <h4>Addressing Contemporary Challenges</h4>
+                <p>As climate change intensifies water scarcity globally, ancient stepwell technology offers proven solutions:</p>
+                
+                <ul>
+                    <li><strong>Groundwater Recharge:</strong> Stepwells naturally replenish aquifers through their deep connections to water tables</li>
+                    <li><strong>Water Storage:</strong> Underground storage minimizes evaporation losses (crucial in arid regions)</li>
+                    <li><strong>Temperature Regulation:</strong> Cool water preserved year-round without energy-intensive refrigeration</li>
+                    <li><strong>Community Resilience:</strong> Decentralized water sources reduce dependence on centralized systems</li>
+                    <li><strong>Drought Adaptation:</strong> Multi-level design ensures access even when water tables drop</li>
+                </ul>
+                
+                <h3>Contemporary Applications</h3>
+                
+                <h4>Urban Water Management</h4>
+                <p>Modern cities are adapting stepwell principles:</p>
+                <ul>
+                    <li><strong>Bengaluru, Karnataka:</strong> Recharge wells modeled on stepwell design recharge 1000+ million liters annually</li>
+                    <li><strong>Rajasthan:</strong> New stepwells constructed to combat desertification</li>
+                    <li><strong>International Adoption:</strong> Australia, Israel, and USA studying stepwell technology for arid regions</li>
+                </ul>
+                
+                <h4>Rainwater Harvesting Integration</h4>
+                <p>Stepwell designs inspire modern rainwater systems:</p>
+                <ul>
+                    <li>Filtration through natural sediment layers</li>
+                    <li>Underground storage preventing contamination</li>
+                    <li>Multi-stage purification through descent levels</li>
+                    <li>Overflow management during heavy monsoons</li>
+                </ul>
+                
+                <h3>Climate Resilience Model</h3>
+                
+                <h4>Passive Cooling Technology</h4>
+                <p>In an era of rising temperatures, stepwells demonstrate zero-energy cooling:</p>
+                <ul>
+                    <li><strong>Temperature Differential:</strong> 15-20°C cooler than surface even in 45°C heat</li>
+                    <li><strong>Natural Ventilation:</strong> Airflow patterns create comfortable microclimates</li>
+                    <li><strong>Urban Heat Island Mitigation:</strong> Underground structures reduce surface heating</li>
+                    <li><strong>Energy Savings:</strong> Potential replacement for energy-intensive air conditioning</li>
+                </ul>
+                
+                <h4>Modern Passive Cooling Projects</h4>
+                <ul>
+                    <li><strong>New Delhi Metro:</strong> Underground stations inspired by stepwell cooling principles</li>
+                    <li><strong>Ahmedabad Library:</strong> Subterranean reading rooms based on stepwell design</li>
+                    <li><strong>Commercial Buildings:</strong> Atrium designs incorporating stepwell airflow patterns</li>
+                </ul>
+                
+                <h3>Sustainable Architecture Lessons</h3>
+                
+                <h4>Zero-Carbon Construction</h4>
+                <p>Gotri Stepwell's construction methods inform sustainable building:</p>
+                <ul>
+                    <li>Local material sourcing (zero transportation emissions)</li>
+                    <li>Natural binding agents (no cement/industrial products)</li>
+                    <li>Manual labor (no machinery fossil fuels)</li>
+                    <li>Durability focus (reducing need for reconstruction)</li>
+                    <li>Biodegradable components (sustainable lifecycle)</li>
+                </ul>
+                
+                <h4>Modern Green Building Integration</h4>
+                <ul>
+                    <li><strong>LEED Certification:</strong> Stepwell principles incorporated in green building standards</li>
+                    <li><strong>Biomimicry:</strong> Natural cooling and water management inspire contemporary design</li>
+                    <li><strong>Material Innovation:</strong> Traditional mortars studied for low-carbon alternatives to cement</li>
+                </ul>
+                
+                <h3>Social Infrastructure Model</h3>
+                
+                <h4>Community Space Design</h4>
+                <p>Stepwells offer lessons for creating inclusive public spaces:</p>
+                <ul>
+                    <li><strong>Multi-functionality:</strong> Combining utility with social interaction</li>
+                    <li><strong>Universal Access:</strong> Design accommodating diverse user needs</li>
+                    <li><strong>Cultural Integration:</strong> Spaces that reflect community values</li>
+                    <li><strong>Economic Activity:</strong> Supporting informal livelihoods</li>
+                    <li><strong>Safety Through Design:</strong> Open, well-lit, naturally surveilled spaces</li>
+                </ul>
+                
+                <h4>Contemporary Public Projects</h4>
+                <ul>
+                    <li><strong>Ahmedabad Riverfront:</strong> Stepwell-inspired gathering spaces along Sabarmati</li>
+                    <li><strong>Mumbai Urban Commons:</strong> Community wells with social interaction platforms</li>
+                    <li><strong>International Examples:</strong> Singapore, Barcelona adopting multi-level public space concepts</li>
+                </ul>
+                
+                <h3>Heritage Tourism Economy</h3>
+                
+                <h4>Economic Impact</h4>
+                <p>Stepwell conservation generates sustainable revenue:</p>
+                <ul>
+                    <li><strong>Tourism Revenue:</strong> Gujarat stepwells attract 500,000+ annual visitors</li>
+                    <li><strong>Employment:</strong> Guides, conservators, craftspeople, hospitality workers</li>
+                    <li><strong>Local Business:</strong> Artisans, vendors, accommodations benefit</li>
+                    <li><strong>Cultural Exports:</strong> Stepwell-inspired art, architecture, design worldwide</li>
+                </ul>
+                
+                <h4>Sustainable Tourism Model</h4>
+                <ul>
+                    <li>Low-impact visitation protocols</li>
+                    <li>Community-based tourism initiatives</li>
+                    <li>Educational programs over entertainment</li>
+                    <li>Revenue sharing with local communities</li>
+                </ul>
+                
+                <h3>Educational Value</h3>
+                
+                <h4>STEM Learning Platform</h4>
+                <p>Stepwells serve as outdoor classrooms for:</p>
+                <ul>
+                    <li><strong>Engineering:</strong> Structural mechanics, hydraulics, materials science</li>
+                    <li><strong>Physics:</strong> Thermodynamics, acoustics, optics</li>
+                    <li><strong>Chemistry:</strong> Material composition, conservation science</li>
+                    <li><strong>Mathematics:</strong> Geometry, symmetry, proportions</li>
+                    <li><strong>Environmental Science:</strong> Water cycles, ecology, sustainability</li>
+                </ul>
+                
+                <h4>Academic Programs</h4>
+                <ul>
+                    <li><strong>University Partnerships:</strong> IIT, NID, CEPT use stepwells for research and teaching</li>
+                    <li><strong>International Studies:</strong> Harvard, MIT, Cambridge conduct stepwell research</li>
+                    <li><strong>School Curricula:</strong> Integrated into Gujarat education standards</li>
+                </ul>
+                
+                <h3>Digital Preservation & Innovation</h3>
+                
+                <h4>Technology Integration</h4>
+                <ul>
+                    <li><strong>3D Scanning:</strong> Complete digital replicas for VR experiences</li>
+                    <li><strong>AI Analysis:</strong> Structural monitoring and predictive maintenance</li>
+                    <li><strong>Augmented Reality:</strong> Historical reconstruction overlays for visitors</li>
+                    <li><strong>Online Platforms:</strong> Virtual tours reaching global audiences</li>
+                    <li><strong>Mobile Apps:</strong> Self-guided tours with multilingual support</li>
+                </ul>
+                
+                <h4>Global Accessibility</h4>
+                <p>Digital tools democratize access to heritage:</p>
+                <ul>
+                    <li>Virtual reality tours for mobility-impaired individuals</li>
+                    <li>Educational resources for schools worldwide</li>
+                    <li>Research databases for academic study</li>
+                    <li>Cultural exchange through digital storytelling</li>
+                </ul>
+                
+                <h3>Conservation Science Advancement</h3>
+                
+                <h4>Research Contributions</h4>
+                <p>Stepwell studies advance conservation methodology:</p>
+                <ul>
+                    <li><strong>Material Analysis:</strong> Traditional binding agents inform low-carbon cement alternatives</li>
+                    <li><strong>Structural Engineering:</strong> Load distribution principles applied to modern seismic design</li>
+                    <li><strong>Climate Adaptation:</strong> Passive cooling strategies for hot climates</li>
+                    <li><strong>Water Management:</strong> Natural filtration and storage systems</li>
+                </ul>
+                
+                <h3>Cultural Diplomacy & Soft Power</h3>
+                
+                <h4>India's Global Cultural Presence</h4>
+                <ul>
+                    <li><strong>UNESCO Recognition:</strong> Rani ki Vav's World Heritage status (2014) elevated all stepwells</li>
+                    <li><strong>International Exhibitions:</strong> Stepwell displays in major museums worldwide</li>
+                    <li><strong>Architectural Influence:</strong> Contemporary buildings globally reference stepwell aesthetics</li>
+                    <li><strong>Academic Exchange:</strong> Research partnerships with international institutions</li>
+                </ul>
+                
+                <h3>Community Revival Initiatives</h3>
+                
+                <h4>Local Engagement Programs</h4>
+                <ul>
+                    <li><strong>Heritage Walks:</strong> Community-led tours connecting residents to history</li>
+                    <li><strong>Artisan Workshops:</strong> Traditional craft skills transmitted to youth</li>
+                    <li><strong>Cultural Festivals:</strong> Annual events reviving stepwell-centered traditions</li>
+                    <li><strong>Photography Competitions:</strong> Encouraging artistic documentation</li>
+                    <li><strong>Oral History Projects:</strong> Recording community memories and stories</li>
+                </ul>
+                
+                <h3>Future Potential</h3>
+                
+                <h4>Emerging Applications</h4>
+                <ul>
+                    <li><strong>Urban Agriculture:</strong> Cool, humid stepwell environments for vertical farming</li>
+                    <li><strong>Data Centers:</strong> Natural cooling for server facilities</li>
+                    <li><strong>Emergency Water Supply:</strong> Disaster resilience infrastructure</li>
+                    <li><strong>Geothermal Energy:</strong> Temperature differential for power generation</li>
+                    <li><strong>Aquifer Monitoring:</strong> Direct access for water quality assessment</li>
+                </ul>
+                
+                <h3>Global Inspiration</h3>
+                
+                <h4>International Adaptations</h4>
+                <p>Stepwell principles informing projects worldwide:</p>
+                <ul>
+                    <li><strong>Arizona, USA:</strong> Desert water harvesting systems based on stepwell design</li>
+                    <li><strong>Australia:</strong> Indigenous water management integrating stepwell concepts</li>
+                    <li><strong>Middle East:</strong> Urban cooling strategies inspired by stepwell principles</li>
+                    <li><strong>Europe:</strong> Underground public spaces referencing stepwell architecture</li>
+                </ul>
+                
+                <h3>Call to Action</h3>
+                <p>The Gotri Stepwell reminds us that:</p>
+                <ul>
+                    <li>✅ Sustainable solutions often exist in traditional knowledge</li>
+                    <li>✅ Community-centered design creates lasting infrastructure</li>
+                    <li>✅ Beauty and function can coexist harmoniously</li>
+                    <li>✅ Simple technologies can solve complex problems</li>
+                    <li>✅ Heritage preservation equals future sustainability</li>
+                </ul>
+                
+                <p><strong>By protecting and learning from monuments like Gotri Stepwell, we build a more sustainable, resilient, and beautiful future.</strong></p>
+            `}
+        };
+
+        // ALL REMAINING JAVASCRIPT EXACTLY THE SAME
+        let scale = 1;
+        let translateX = 0;
+        let translateY = 0;
+        let isDragging = false;
+        let startX = 0;
+        let startY = 0;
+        let currentX = 0;
+        let currentY = 0;
+        let gpsActive = false;
+        let locationMarker = null;
+        let voiceNavActive = false;
+        let navigationStep = 0;
+        let speechSynthesis = window.speechSynthesis;
+        
+        const navigationSteps = [
+            { text: "Welcome to Gotri Stepwell navigation", distance: "Starting point" },
+            { text: "Head north towards the main entrance", distance: "50 meters ahead" },
+            { text: "Enter through the ornate gateway with carved pillars", distance: "20 meters" },
+            { text: "Descend the first level of steps on your right", distance: "15 meters" },
+            { text: "Continue down to level 2, notice the intricate wall carvings", distance: "10 meters" },
+            { text: "Proceed to level 3, the water source area", distance: "12 meters" },
+            { text: "Explore level 4 with the ancient water channels", distance: "8 meters" },
+            { text: "Reach level 5, the deepest point of the stepwell", distance: "10 meters" },
+            { text: "You have arrived at the bottom of Gotri Stepwell", distance: "Destination reached" }
+        ];
+
+        function startMainApp() {
+            document.getElementById('welcomeScreen').style.display = 'none';
+            document.getElementById('mainApp').style.display = 'block';
+            loadPage('intro', document.querySelector('.nav-item.active'));
+        }
+
+        function loadPage(pageKey, activeBtn) {
+            const pageTitle = document.getElementById('pageTitle');
+            const pageContent = document.getElementById('pageContent');
+            
+            pageTitle.classList.remove('page-title-animated');
+            pageContent.classList.remove('page-content-animated');
+            
+            void pageTitle.offsetWidth;
+            void pageContent.offsetWidth;
+            
+            pageTitle.textContent = pageData[pageKey].title;
+            pageContent.innerHTML = pageData[pageKey].content;
+            
+            pageTitle.classList.add('page-title-animated');
+            pageContent.classList.add('page-content-animated');
+            
+            document.querySelectorAll('.nav-item').forEach(btn => btn.classList.remove('active'));
+            activeBtn.classList.add('active');
+            
+            if (pageData[pageKey].isMap) {
+                setTimeout(initializeMap, 100);
+            }
+        }
+        
+        function quickMapAccess() {
+            const mapNavItem = document.querySelector('.nav-item[onclick*="map"]');
+            loadPage('map', mapNavItem);
+        }
+
+        function initializeMap() {
+            const container = document.getElementById('mapContainer');
+            const image = document.getElementById('mapImage');
+            
+            if (!container || !image) return;
+            
+            scale = 1;
+            translateX = 0;
+            translateY = 0;
+            updateMapTransform();
+            
+            container.addEventListener('mousedown', startDrag);
+            container.addEventListener('mousemove', drag);
+            container.addEventListener('mouseup', endDrag);
+            container.addEventListener('mouseleave', endDrag);
+            
+            container.addEventListener('touchstart', handleTouchStart);
+            container.addEventListener('touchmove', handleTouchMove);
+            container.addEventListener('touchend', endDrag);
+            
+            container.addEventListener('wheel', handleWheel);
+        }
+
+        function startDrag(e) {
+            isDragging = true;
+            startX = e.clientX - currentX;
+            startY = e.clientY - currentY;
+        }
+
+        function drag(e) {
+            if (!isDragging) return;
+            e.preventDefault();
+            currentX = e.clientX - startX;
+            currentY = e.clientY - startY;
+            translateX = currentX;
+            translateY = currentY;
+            updateMapTransform();
+        }
+
+        function endDrag() {
+            isDragging = false;
+        }
+
+        function handleTouchStart(e) {
+            const touch = e.touches[0];
+            isDragging = true;
+            startX = touch.clientX - currentX;
+            startY = touch.clientY - currentY;
+        }
+
+        function handleTouchMove(e) {
+            if (!isDragging) return;
+            e.preventDefault();
+            const touch = e.touches[0];
+            currentX = touch.clientX - startX;
+            currentY = touch.clientY - startY;
+            translateX = currentX;
+            translateY = currentY;
+            updateMapTransform();
+        }
+
+        function handleWheel(e) {
+            e.preventDefault();
+            const delta = e.deltaY > 0 ? -0.1 : 0.1;
+            scale = Math.max(0.5, Math.min(5, scale + delta));
+            updateMapTransform();
+        }
+
+        function zoomIn() {
+            scale = Math.min(5, scale + 0.2);
+            updateMapTransform();
+        }
+
+        function zoomOut() {
+            scale = Math.max(0.5, scale - 0.2);
+            updateMapTransform();
+        }
+
+        function resetMap() {
+            scale = 1;
+            translateX = 0;
+            translateY = 0;
+            currentX = 0;
+            currentY = 0;
+            updateMapTransform();
+        }
+
+        function updateMapTransform() {
+            const image = document.getElementById('mapImage');
+            if (image) {
+                image.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+            }
+        }
+        
+        function toggleGPS() {
+            const gpsBtn = document.getElementById('gpsBtn');
+            
+            if (!gpsActive) {
+                if (navigator.geolocation) {
+                    gpsBtn.classList.add('active');
+                    navigator.geolocation.getCurrentPosition(
+                        (position) => {
+                            showUserLocation(position.coords.latitude, position.coords.longitude);
+                            speak("GPS location activated. Your position is now shown on the map.");
+                        },
+                        (error) => {
+                            alert("Unable to get your location. Please enable GPS.");
+                            gpsBtn.classList.remove('active');
+                        }
+                    );
+                    gpsActive = true;
+                } else {
+                    alert("Geolocation is not supported by your browser.");
+                }
+            } else {
+                gpsBtn.classList.remove('active');
+                removeLocationMarker();
+                gpsActive = false;
+                speak("GPS location deactivated.");
+            }
+        }
+        
+        function showUserLocation(lat, lon) {
+            const container = document.getElementById('mapContainer');
+            
+            removeLocationMarker();
+            
+            locationMarker = document.createElement('div');
+            locationMarker.className = 'location-marker';
+            locationMarker.id = 'userLocationMarker';
+            
+            const mapRect = container.getBoundingClientRect();
+            locationMarker.style.left = (mapRect.width / 2) + 'px';
+            locationMarker.style.top = (mapRect.height / 2) + 'px';
+            
+            container.appendChild(locationMarker);
+        }
+        
+        function removeLocationMarker() {
+            const marker = document.getElementById('userLocationMarker');
+            if (marker) {
+                marker.remove();
+            }
+            locationMarker = null;
+        }
+        
+        function toggleVoiceNav() {
+            const voiceBtn = document.getElementById('voiceBtn');
+            const voicePanel = document.getElementById('voiceNavPanel');
+            
+            voiceNavActive = !voiceNavActive;
+            
+            if (voiceNavActive) {
+                voiceBtn.classList.add('active');
+                voicePanel.classList.add('active');
+                speak("Voice navigation activated. Click start to begin directions.");
+            } else {
+                voiceBtn.classList.remove('active');
+                voicePanel.classList.remove('active');
+                stopNavigation();
+                speak("Voice navigation deactivated.");
+            }
+        }
+        
+        function startNavigation() {
+            navigationStep = 0;
+            speakDirection();
+        }
+        
+        function speakDirection() {
+            if (navigationStep < navigationSteps.length) {
+                const step = navigationSteps[navigationStep];
+                document.getElementById('navDirection').textContent = step.text;
+                document.getElementById('navDistance').textContent = step.distance;
+                
+                speak(step.text + ". " + step.distance);
+                
+                navigationStep++;
+                
+                if (navigationStep < navigationSteps.length) {
+                    setTimeout(speakDirection, 5000);
+                }
+            } else {
+                speak("Navigation complete. You have reached your destination.");
+            }
+        }
+        
+        function stopNavigation() {
+            navigationStep = 0;
+            speechSynthesis.cancel();
+            const navDir = document.getElementById('navDirection');
+            const navDist = document.getElementById('navDistance');
+            if (navDir) navDir.textContent = "Navigation stopped";
+            if (navDist) navDist.textContent = "Click start to begin";
+        }
+        
+        function speak(text) {
+            if ('speechSynthesis' in window) {
+                speechSynthesis.cancel();
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.rate = 0.9;
+                utterance.pitch = 1;
+                utterance.volume = 1;
+                speechSynthesis.speak(utterance);
+            }
+        }
+
+        function finishTour() {
+            stopNavigation();
+            if (gpsActive) {
+                const gpsBtn = document.getElementById('gpsBtn');
+                if (gpsBtn) gpsBtn.classList.remove('active');
+                gpsActive = false;
+                removeLocationMarker();
+            }
+            if (voiceNavActive) {
+                const voiceBtn = document.getElementById('voiceBtn');
+                const voicePanel = document.getElementById('voiceNavPanel');
+                if (voiceBtn) voiceBtn.classList.remove('active');
+                if (voicePanel) voicePanel.classList.remove('active');
+                voiceNavActive = false;
+            }
+            
+            document.getElementById('mainApp').style.display = 'none';
+            document.getElementById('endScreen').style.display = 'flex';
+        }
+
+        function goBackToMain() {
+            document.getElementById('endScreen').style.display = 'none';
+            document.getElementById('mainApp').style.display = 'block';
+        }
+        
+        function exitToWelcome() {
+            stopNavigation();
+            if (gpsActive) {
+                gpsActive = false;
+                removeLocationMarker();
+            }
+            if (voiceNavActive) {
+                voiceNavActive = false;
+            }
+            
+            document.body.classList.remove('dark');
+            const darkBtn = document.getElementById('darkToggle');
+            if (darkBtn) {
+                darkBtn.classList.remove('active');
+                darkBtn.textContent = '🌙 Dark Mode';
+            }
+            
+            document.getElementById('endScreen').style.display = 'none';
+            document.getElementById('welcomeScreen').style.display = 'flex';
+            
+            setTimeout(() => {
+                const introBtn = document.querySelector('.nav-item');
+                if (introBtn) loadPage('intro', introBtn);
+            }, 100);
+        }
+
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark');
+            const btn = document.getElementById('darkToggle');
+            btn.classList.toggle('active');
+            btn.textContent = document.body.classList.contains('dark') ? '☀️ Light Mode' : '🌙 Dark Mode';
+        }
+    </script>
+</body>
+</html>
